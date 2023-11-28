@@ -1,0 +1,28 @@
+.about-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:8em;
+}
+.about-img{
+    width: 50%;
+
+}
+.meet-team{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.meet-team img{
+    width:10%;
+    height:10%;
+}
+.meet-team-card{
+    display: flex;
+    flex-direction: column;
+}
+.meets {
+    display: flex;
+}

@@ -1,0 +1,126 @@
+.contactcontent{
+    display: flex;
+    width: 100vw;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contactcontent button{
+    color:#d7f85f;
+  }
+  .contactheader{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .contactheader h4{
+    font-size: 3em;
+    color:purple;
+  }
+  .contactheader h2{
+    font-size: 6em;
+    font-weight: lighter;
+    color:purple;
+  }
+  .contactform{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    margin-left: -20em;
+  
+    
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap:1em;
+    padding: 2em;
+    margin: 100px;
+  
+  
+  }
+  input,
+textarea {
+
+	width: 100%;
+	border: 0;
+	padding: 10px 5px;
+  background: transparent no-repeat;
+  font-size: 1.3em;
+  margin:1em 0;
+  font-family: 'Exo 2', sans-serif;
+	
+	/*
+	* IMPORTANT PART HERE
+	*/
+	
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom, #5d1abc, #d7f85f), linear-gradient(to bottom, #5d1abc, #d7f85f);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 2px, 100% 1px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+
+	/* animation solely on background-size */
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+}
+
+input:focus,
+textarea:focus{
+  /* sizes for the 2 images (focus state) */
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+}
+ 
+ .contactform button{
+    padding:1.2em 0.8em;
+    font-size: 1em;
+    background-color: purple;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+     cursor: pointer;
+  }
+
+  .joinus{
+   
+    display: flex;
+    width:100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3em;
+  }
+  .joinusheader{
+    display: flex;
+  }
+  .joinus h4{
+    font-size: 3em;
+    color:purple;
+  }
+ .joinusform {
+  display:flex;
+  width:100vw;
+  justify-content: center;
+  gap:1em
+ }
+ .joinusform input {
+  width:50%;
+ }
+  
+  .joinusform button{
+    width:10%;
+    height:4em;
+    font-size: 1em;
+    color: #d7f85f;
+    background-color: purple;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    cursor: pointer;
+   
+
+  }
