@@ -1,0 +1,29 @@
+.topread{
+    display: flex;
+    flex-direction: column;
+    margin-top:20em;
+    justify-content: center;
+    padding: 20px;
+    background-color: purple;
+    overflow-wrap: normal;
+   
+}
+.topreadcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topreadheader{
+    display: flex;
+    justify-content: center;
+    
+  
+ 
+    align-items: center;
+}
+.topread h2{
+    text-align: center;
+    
+    color:rgb(253, 245, 127);
+    font-size: 3rem;
+}

@@ -4,7 +4,9 @@ import './Home.css';
 
 
 import Publish from "./Publish";
+import Author from './Author';
 import Footer from "./Footer";
+import PublishedNovel from "./PublishedNovels";
 
 const Home = () =>{
     return(
@@ -29,41 +31,17 @@ const Home = () =>{
         </div>
        
         </div>
+        <div className="div-published">
+        <h3>All published Novels</h3>
+        <PublishedNovel />
+        </div>
+       
        
         <Publish />
        
-        <div className="topread">
-            <div className="topreadheader">
-            <h2>This Month Read.</h2>
-            </div>
-           <div className="topreadcontent">
-           <div className="topreadfirst">
-                <img alt="" src="/images/adivinevomit.png" />
-                <h5>A divine Vomit</h5>
-                <button className="btn-yellow">Read Review</button>
-            </div>
+       <Author />
 
-            <div className="topreadsecond">
-                <img alt="" src="/images/howto.png" />
-                <h5>How To stop worrying and start living</h5>
-                <button className="btn-yellow">Read Review</button>
-            </div>
-            <div className="topreadsecond">
-                <img alt="" src="/images/youcan.png" />
-                <h5>You can</h5>
-                <button className="btn-yellow">Read Review</button>
-            </div>
-
-           </div>
-           
-
-        </div>
-
-        <div className="testimonial">
-            <div className="testi-image">
-                <img alt="" src="/images/fourpeople.png" />
-            </div>
-        </div>
+    
         <Footer />
         </>
         

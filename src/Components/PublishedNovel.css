@@ -1,0 +1,84 @@
+.published-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.novel-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+   
+}
+
+.novel-card{
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+   overflow-y: hidden;
+    width: 350px;
+}
+.novel-card-header{
+    height:200px;
+  
+    overflow-y: hidden;
+}
+.novel-card-header img{
+    object-fit: cover;
+   
+    width: 100%;
+}
+.card-content{
+    background-color: #fff;
+    padding: 30px;
+}
+.span-class{
+ font-size: 1em;
+ color: rgb(6, 192, 6);
+ font-weight: 600;
+ margin-left: 0.2em;
+ margin-bottom: -2.9em;
+}
+.rating-css{
+    color: rgb(6, 192, 6);
+    font-size: 0.8em;
+}
+
+.novel-card-title{
+    height: 6em;
+   
+}
+.card-author{
+    display: flex;
+    gap:2em;
+}
+.card-author-profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width:40px;
+}
+
+.card-author-profile-image img{
+  
+        max-width: 100%;
+    
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.card-author-info{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0.1em;
+  width: 100px;
+}
+
