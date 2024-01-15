@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/thewebhook/static/css/main.d643a1f2.css",
-    "main.js": "/thewebhook/static/js/main.a2b444b8.js",
-    "static/js/787.c45e3a5a.chunk.js": "/thewebhook/static/js/787.c45e3a5a.chunk.js",
-    "index.html": "/thewebhook/index.html",
-    "main.d643a1f2.css.map": "/thewebhook/static/css/main.d643a1f2.css.map",
-    "main.a2b444b8.js.map": "/thewebhook/static/js/main.a2b444b8.js.map",
-    "787.c45e3a5a.chunk.js.map": "/thewebhook/static/js/787.c45e3a5a.chunk.js.map"
+    "main.css": "/thewebbook/static/css/main.d643a1f2.css",
+    "main.js": "/thewebbook/static/js/main.32ea9bb0.js",
+    "static/js/787.1463b1d0.chunk.js": "/thewebbook/static/js/787.1463b1d0.chunk.js",
+    "index.html": "/thewebbook/index.html",
+    "main.d643a1f2.css.map": "/thewebbook/static/css/main.d643a1f2.css.map",
+    "main.32ea9bb0.js.map": "/thewebbook/static/js/main.32ea9bb0.js.map",
+    "787.1463b1d0.chunk.js.map": "/thewebbook/static/js/787.1463b1d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d643a1f2.css",
-    "static/js/main.a2b444b8.js"
+    "static/js/main.32ea9bb0.js"
   ]
 }
