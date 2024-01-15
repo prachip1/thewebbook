@@ -1,26 +1,37 @@
 {
   "name": "webagency",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://prachip1.github.io/thewebhook",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.18",
+=======
+  "private": true,
+  "dependencies": {
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^10.16.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-icons": "^4.12.0",
+=======
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,8 +54,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+=======
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
   }
 }

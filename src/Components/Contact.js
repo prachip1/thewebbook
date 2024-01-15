@@ -1,6 +1,7 @@
 import React from "react";
 import transition from "../transition";
 
+<<<<<<< HEAD
 import './Contact.css';
 import Footer from "./Footer";
 
@@ -41,6 +42,13 @@ const Contact = () =>{
         
      <Footer />
      </>
+=======
+const Contact = () =>{
+    return(
+        <div>
+            <h1>Contact Us</h1>
+        </div>
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     )
 }
 

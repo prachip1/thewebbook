@@ -1,5 +1,6 @@
 import React from "react";
 import transition from "../transition";
+<<<<<<< HEAD
 import './Home.css';
 
 
@@ -45,6 +46,14 @@ const Home = () =>{
         <Footer />
         </>
         
+=======
+
+const Home = () =>{
+    return(
+        <div>
+            <h1>Home</h1>
+        </div>
+>>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     )
 }
 
