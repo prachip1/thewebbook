@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thewebhook/static/css/main.9b0c3465.css",
+    "main.js": "/thewebhook/static/js/main.3cdd7ce1.js",
+    "static/js/787.161590c6.chunk.js": "/thewebhook/static/js/787.161590c6.chunk.js",
+    "index.html": "/thewebhook/index.html",
+    "main.9b0c3465.css.map": "/thewebhook/static/css/main.9b0c3465.css.map",
+    "main.3cdd7ce1.js.map": "/thewebhook/static/js/main.3cdd7ce1.js.map",
+    "787.161590c6.chunk.js.map": "/thewebhook/static/js/787.161590c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0c3465.css",
+    "static/js/main.3cdd7ce1.js"
+  ]
+}
