@@ -38,20 +38,7 @@ const Contact = () =>{
            
             
         </div>
-         <div className="joinus">
-        <div className="joinusheader">
-        <img alt="" src="/images/girlcontactus.png" className="joinusimg"/>
-        <h4>Or Just Join Us.</h4>
         
-
-        </div>
-       
-         <div className="joinusform">
-         <input type="email" placeholder="Enter your email to join." />
-         <button>JOIN US</button>
-         </div>
-        
-     </div>
      <Footer />
      </>
     )

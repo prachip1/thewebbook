@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import './PublishedNovel.css';
 import { FaHeart } from "react-icons/fa";
 
-const CardWeb = ({imgsrc,genre,title,rate})=>{
+const CardWeb = ({id,imgsrc,genre,title,rate,pubdate,authorn,authimg})=>{
+    
+
+
+const clickclick = (e) =>{
+
+    e.preventDefault();
+
+
+
+}
+
+
+
+
     return(
-        <div className="novel-container"> 
+        <div className="novel-container" onClick={clickclick}> 
         <div className="novel-card">
         <div className="novel-card-header">
             <img src={imgsrc} alt="comics" />
@@ -16,7 +30,9 @@ const CardWeb = ({imgsrc,genre,title,rate})=>{
         </div>
         <h5 className="novel-card-genere">{genre}</h5>
         <h4 className="novel-card-title">{title}</h4>
-
+        <p className="novel-card-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+         remaining essentially unchanged.</p>
   
         
        
@@ -25,11 +41,11 @@ const CardWeb = ({imgsrc,genre,title,rate})=>{
 
    <div className="card-author">
     <div className="card-author-profile-image">
-        <img src="/images/team1.jpg" alt="" />
+        <img src={authimg} alt="" />
         </div>
         <div className="card-author-info">
-            <strong>Ank Jai</strong>
-            <p>Oct 19, 2023</p>
+            <strong>{authorn}</strong>
+            <p>{pubdate}</p>
         </div>
 
    </div>
@@ -38,7 +54,7 @@ const CardWeb = ({imgsrc,genre,title,rate})=>{
  
     
     </div>
-    </div>
+        </div>
     )
 }
 

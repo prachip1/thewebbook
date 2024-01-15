@@ -12,6 +12,7 @@
   .homeheroleft{
     display: flex;
     flex-direction: column;
+    padding: 10px;
     margin-top: 7.8em;
     margin-left:25px;
     
@@ -21,15 +22,16 @@
    font-size: 2.6rem;
    color:purple;
    font-weight: 600;
-    line-height: 1.2em;
+    
    }
   .homeheroleft h2
   {
-   font-size: 4.6rem;
+   font-size: 4rem;
    color:purple;
    font-weight: 600;
-    line-height: 1.2em;
+ 
    }
+  
    .herobutton{
     display: flex;
     gap:4em;
@@ -88,8 +90,9 @@
     font-size: 2.6rem;
     color:purple;
     font-weight: 600;
-    line-height: 1.2em;
+   
     text-align: center;
+    margin-bottom: 2em;
   }
 .whyjoin{
     display: flex;
@@ -144,7 +147,6 @@ cursor: pointer;
  
 }
 
-
 .testimonial{
     display: flex;
     justify-content: center;
@@ -157,7 +159,29 @@ cursor: pointer;
 
 
 /*card css ends */
+.books-css{
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
 
+}
+.books-content{
+  display: flex;
+  flex-direction: flex-wrap;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.books-css h3{
+  font-size: 2.6rem;
+  color:purple;
+  font-weight: 600;
+ 
+  text-align: center;
+  margin-bottom: 0.3em;
+
+}
 
 
 

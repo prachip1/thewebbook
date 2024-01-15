@@ -16,7 +16,7 @@ const Navbar = () =>{
                 </div>
 
                 <div className="nav-item">
-                    <Link className="nav-link" to="/clubs">How to Publish?</Link>
+                    <Link className="nav-link" to="/how-to-publish">How to Publish?</Link>
                 </div>
 
                 <div className="nav-item">

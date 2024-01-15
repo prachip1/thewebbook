@@ -1,29 +1,28 @@
-.topread{
+.author-container{
     display: flex;
     flex-direction: column;
-    margin-top:20em;
     justify-content: center;
-    padding: 20px;
-    background-color: purple;
-    overflow-wrap: normal;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+
+
+}
+
+.author-image-card{
+    position: relative;
+}
+.author-image-card img{
+   height: 250px;
+   width: 250px;
+   background-image: linear-gradient(red, yellow, blue);
+}
+.overlay-div{
    
+    background-color: black;
 }
-.topreadcontent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.topreadheader{
-    display: flex;
-    justify-content: center;
-    
-  
- 
-    align-items: center;
-}
-.topread h2{
-    text-align: center;
-    
-    color:rgb(253, 245, 127);
-    font-size: 3rem;
+.author-detail{
+    position: absolute;
+    margin-top: 7em;
+    text-align: left!important;
 }
