@@ -1,25 +1,18 @@
-<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
 
-=======
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
 *{
   margin: 0;
   padding: 0;
   box-sizing:border-box;
-<<<<<<< HEAD
   overflow-x: hidden;
   
-=======
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
  
 }
 
 html, body{
-<<<<<<< HEAD
   font-family: 'Quicksand', sans-serif;
   
   background:rgb(253, 245, 127);
@@ -31,17 +24,6 @@ html, body{
   display: flex;
  justify-content: space-between;
 
-=======
-  font-family:"Verdana, Geneva, Tahoma, sans-serif";
-  background: rgb(255,244,79);
-}
-
-.nav{
-  position: fixed;
-  width: 100%;
-  display: flex;
- justify-content: space-between;
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
   color:purple;
 }
 .nav-links{
@@ -52,7 +34,6 @@ html, body{
   font-weight: 300;
   font-size: 1.3em;
 }
-<<<<<<< HEAD
 .logotext{
   font-size: 12px;
   font-weight:400;
@@ -64,11 +45,6 @@ html, body{
 h1{
   width: 80%;
   /*position: absolute;*/
-=======
-h1{
-  width: 80%;
-  position: absolute;
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
   top: 50%;
   left: 50%;
   font-size: 15rem;
@@ -79,10 +55,6 @@ h1{
   line-height: 1.2;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
 a{
   text-decoration: none;
   font-weight: 500;
@@ -107,8 +79,4 @@ a{
     background: purple;
     transform-origin: top;
   
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122

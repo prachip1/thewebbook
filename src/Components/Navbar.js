@@ -6,12 +6,8 @@ const Navbar = () =>{
         <div className="nav">
             <div className="logo">
              <Link className="nav-link" to="/">
-<<<<<<< HEAD
                 <p>TheWebBook </p>
                
-=======
-                BookWeb
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
              </Link>
             </div>
             <div className="nav-links">
@@ -20,7 +16,6 @@ const Navbar = () =>{
                 </div>
 
                 <div className="nav-item">
-<<<<<<< HEAD
                     <Link className="nav-link" to="/how-to-publish">How to Publish?</Link>
                 </div>
 
@@ -34,11 +29,6 @@ const Navbar = () =>{
 
               
 
-=======
-                    <Link className="nav-link" to="/about">About Us</Link>
-                </div>
-
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
                 <div className="nav-item">
                     <Link className="nav-link" to="/contact">Contact Us</Link>
                 </div>

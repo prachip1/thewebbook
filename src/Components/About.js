@@ -1,7 +1,6 @@
 import React from "react";
 import transition from "../transition";
 
-<<<<<<< HEAD
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import './About.css';
@@ -124,13 +123,6 @@ const About = () =>{
       </div>
     
       </div>
-=======
-const About = () =>{
-    return(
-        <div>
-            <h1>About Us</h1>
-        </div>
->>>>>>> ede7066c0f7919e8594afa0b993f20400a5ac122
     )
 }
 
